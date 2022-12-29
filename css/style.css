@@ -1,0 +1,217 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+	height: 1400px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 600px;
+	height: 300px;
+	background-color: green;
+	position: absolute;
+	top: 30%;
+	left: 25%;
+}
+.red{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	background-color: red;
+	position: absolute;
+	/*top: 25%;
+	left: 38%;*/
+	transform: translate( 220px, 76px);
+
+}
+.yellow{
+	width: 5px;
+	height: 600px;
+	background-color:yellow;
+	position: absolute;
+	transform: translate(-226px, -100px);
+}
+.black{
+	width: 1950px;
+	height: 50px;
+	background-color: blue;
+	position: fixed;
+}
+.fb{
+	width: 150px;
+	position: fixed;
+	top: 50%;
+	right: -90px;
+	transition: 1s;
+}
+.fb:hover{
+	right: -5px;
+	cursor: pointer;
+}
+.utube{
+	width: 160px;
+	position: fixed;
+	top: 60%;
+	right: -104px;
+	transition: 1s;
+
+}
+.utube:hover{
+		right: -5px;
+	cursor: pointer;
+}
+.insta{
+	width: 173px;
+	position: fixed;
+	top: 73%;
+	right: -119px;
+	transition: 1s;
+}
+.insta:hover{
+	right: -5px;
+	cursor: pointer;
+} 
+.social-icons{
+	width: 100%;
+	padding: 40px, 0px;
+	text-align: center;
+	position: absolute;
+	top: 1000px;
+
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	text-align: center;
+	font-size: 35px;
+	margin: 0px,10px;
+}
+.menu-list {
+  width: 65%;
+  text-align: center;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.menu-list li a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+
+}
+
+.social-icons li a .fa-facebook{
+	background-color: blue;
+	color: white;
+	border: 1px solid blue;
+    width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+}
+.social-icons li a .fa-facebook:hover{
+	background-color: white;
+	color: #08c;
+	border: 1px solid #08c;
+	transition: 1s;
+}
+.social-icons li a .fa-facebook:focus{
+    background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+.social-icons li a  .fa-instagram{
+	background-color: #CF3991;
+    color: #fff;
+    border: 1px solid #CF3991;
+    width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+}
+.social-icons li a  .fa-instagram:hover{
+	background-color: white;
+	color: #e95950;
+	border: 1px solid #e95950;
+	transition: 1s;
+}
+.social-icons li a  .fa-instagram:focus{
+    background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+.social-icons li a  .fa-pinterest-p{
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+    width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+}
+.social-icons li a  .fa-pinterest-p:hover{
+	background-color: white;
+	color: red;
+	border: 1px solid red;
+	transition: 1s;
+}
+.social-icons li a  .fa-pinterest-p:focus{
+    background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+.social-icons li a .fa-twitter{
+	background-color: #00acee;
+	color: white;
+	border: 1px solid #00acee;
+    width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+}
+.social-icons li a .fa-twitter:hover{
+	background-color: white;
+	color:#00acee;
+	border: 1px solid #00acee;
+	transition: 1s;
+}
+.social-icons li a .fa-twitter:focus{
+    background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+.social-icons li a .fa-youtube{
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+    width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+}
+.social-icons li a .fa-youtube:hover{
+	background-color: white;
+	color: red;
+	border: 1px solid red;
+	transition: 1s;
+}
+.social-icons li a .fa-youtube:focus{
+    background-color: white;
+	color: black;
+	border: 1px solid black;
+}
